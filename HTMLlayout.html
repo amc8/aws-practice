@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Alex_Frame</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 10%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: #f1f1f1;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Alex_Frame</h2>
+  
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="page 4.html">Procedures</a></li>
+      <li><a href="page 1.html">Scripts</a></li>
+      <li><a href="page 6.html">Maps</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+	
+    <h1>Framework to Apply GIS and Computer Skills</h1>
+	<style>
+	img {
+		float: left;
+	}
+	</style>
+	<img src="Alex Frame.jpg" alt=alexframe logo width="100" height="100">
+	<p>
+	Geographic information systems is an evolving field that will progress into the future. With the increase and combining of geo-spatial data integrated with automation, new technology and programs will emerge into a system of networks to manage environments that have synchronized with databases. I would like to be part of the management of these databases that are determining flows of information conveyed through maps and the use of software to utilize geo-spatial data.
+	This website is a collection of the scripts and procedues I have worked with to develop my computer programming skills for GIS.
+	The main purpose of this website is to have a visual representation of my demonstrated GIS and computer programming skills.
+    To the left is a collection of scripts that I have gathered and maps that I have created with their instructions.
+	</p>
+  </article>
+</section>
+
+<footer>
+  <p><a href="example.html">About Me</a></p>
+</footer>
+
+</body>
+</html>
